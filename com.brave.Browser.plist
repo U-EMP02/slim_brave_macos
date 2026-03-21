@@ -22,7 +22,7 @@
         <key>PasswordManagerEnabled</key>
         <false/>
         <key>IncognitoModeAvailability</key>
-        <integer>1</integer>
+        <integer>0</integer>
         <key>WebRtcIPHandling</key>
         <string>disable_non_proxied_udp</string>
         <key>QuicAllowed</key>
