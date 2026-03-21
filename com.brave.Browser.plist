@@ -62,7 +62,7 @@
         <key>DeveloperToolsAvailability</key>
         <integer>1</integer>
         <key>DefaultCookiesSetting</key>
-        <integer>4</integer>
+        <integer>1</integer>
         <key>DefaultNotificationsSetting</key>
         <integer>2</integer>
     </dict>
