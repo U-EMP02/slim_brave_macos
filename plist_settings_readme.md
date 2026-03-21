@@ -46,10 +46,10 @@ This document explains each setting in the `com.brave.Browser.plist` file used b
 - **Effect**: Prevents Brave from storing passwords
 - **Security**: Reduces risk of password database compromise
 
-### `IncognitoModeAvailability: 1`
-- **Purpose**: Sets incognito mode availability (1 = Enabled)
-- **Effect**: Allows private browsing sessions
-- **Privacy**: Enables temporary private browsing without data persistence
+### `IncognitoModeAvailability: 0`
+- **Purpose**: Sets incognito mode availability (0 = Disabled)
+- **Effect**: Prevents access to private browsing sessions
+- **Security**: Eliminates potential privacy bypass scenarios
 
 ### `WebRtcIPHandling: disable_non_proxied_udp`
 - **Purpose**: Controls WebRTC IP address exposure
@@ -140,10 +140,10 @@ This document explains each setting in the `com.brave.Browser.plist` file used b
 - **Effect**: Enables access to browser developer tools
 - **Utility**: Allows debugging and inspection
 
-### `DefaultCookiesSetting: 4`
-- **Purpose**: Sets default cookie behavior (4 = Keep cookies for session)
-- **Effect**: Cookies are cleared when browser closes
-- **Privacy**: Prevents persistent tracking cookies
+### `DefaultCookiesSetting: 1`
+- **Purpose**: Sets default cookie behavior (1 = Allow all cookies)
+- **Effect**: Allows all cookies by default, including first and third-party
+- **Privacy**: Standard cookie behavior (consider changing to 4 for enhanced privacy)
 
 ### `DefaultNotificationsSetting: 2`
 - **Purpose**: Sets default notification behavior (2 = Do not allow)
