@@ -5,7 +5,7 @@ A script to install Brave browser preferences on macOS for a slimmed-down, priva
 ## Usage
 
 ```bash
-cd slimbrave-macos
+cd slim_brave_macos
 chmod +x install_brave_prefs.sh
 sudo ./install_brave_prefs.sh
 sudo killall cfprefsd
