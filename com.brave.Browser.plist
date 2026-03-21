@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <!-- Core Brave debloat (confirmed working in your output) -->
+        <key>BraveRewardsDisabled</key>
+        <true/>
+        <key>BraveWalletDisabled</key>
+        <true/>
+        <key>BraveVPNDisabled</key>
+        <true/>
+        <key>TorDisabled</key>
+        <true/>
+        <key>BraveAIChatEnabled</key>
+        <false/>
+
+        <!-- Security & privacy hardening (from your active policies) -->
+        <key>AutofillAddressEnabled</key>
+        <false/>
+        <key>AutofillCreditCardEnabled</key>
+        <false/>
+        <key>PasswordManagerEnabled</key>
+        <false/>
+        <key>IncognitoModeAvailability</key>
+        <integer>1</integer>
+        <key>WebRtcIPHandling</key>
+        <string>disable_non_proxied_udp</string>
+        <key>QuicAllowed</key>
+        <false/>
+        <key>BlockThirdPartyCookies</key>
+        <true/>
+
+        <!-- Additional debloat & telemetry blocks (expanding your config) -->
+        <key>DefaultBrowserSettingEnabled</key>
+        <false/>
+        <key>DnsOverHttpsMode</key>
+        <string>off</string>
+        <key>FeedbackSurveysEnabled</key>
+        <false/>
+        <key>MediaRecommendationsEnabled</key>
+        <false/>
+        <key>MetricsReportingEnabled</key>
+        <false/>
+        <key>PromotionsEnabled</key>
+        <false/>
+        <key>SearchSuggestEnabled</key>
+        <false/>
+        <key>ShoppingListEnabled</key>
+        <false/>
+        <key>SafeBrowsingExtendedReportingEnabled</key>
+        <false/>
+        <key>SpellcheckEnabled</key>
+        <false/>
+        <key>TranslateEnabled</key>
+        <false/>
+        <key>UrlKeyedAnonymizedDataCollectionEnabled</key>
+        <false/>
+
+        <!-- Further hardening (not in your current, but recommended) -->
+        <key>AlwaysOpenPdfExternally</key>
+        <true/>
+        <key>DeveloperToolsAvailability</key>
+        <integer>1</integer>
+        <key>DefaultCookiesSetting</key>
+        <integer>4</integer>
+        <key>DefaultNotificationsSetting</key>
+        <integer>2</integer>
+    </dict>
+</plist>
