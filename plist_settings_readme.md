@@ -48,8 +48,8 @@ This document explains each setting in the `com.brave.Browser.plist` file used b
 
 ### `IncognitoModeAvailability: 0`
 - **Purpose**: Sets incognito mode availability (0 = Disabled)
-- **Effect**: Prevents access to private browsing sessions
-- **Security**: Eliminates potential privacy bypass scenarios
+- **Effect**: Allows access to private browsing sessions
+- **Security**: Allows potential privacy bypass scenarios
 
 ### `WebRtcIPHandling: disable_non_proxied_udp`
 - **Purpose**: Controls WebRTC IP address exposure
