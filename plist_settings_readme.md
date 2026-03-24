@@ -128,6 +128,11 @@ This document explains each setting in the `com.brave.Browser.plist` file used b
 - **Effect**: Stops sharing browsing patterns
 - **Privacy**: Eliminates behavioral analytics
 
+### `BraveStatsPingEnabled: false`
+- **Purpose**: Disables Brave statistics ping requests
+- **Effect**: Prevents periodic usage statistics transmission to Brave
+- **Privacy**: Eliminates browser usage telemetry and analytics reporting
+
 ## Further Hardening Settings
 
 ### `AlwaysOpenPdfExternally: true`

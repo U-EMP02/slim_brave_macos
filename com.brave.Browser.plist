@@ -55,6 +55,8 @@
         <false/>
         <key>UrlKeyedAnonymizedDataCollectionEnabled</key>
         <false/>
+        <key>BraveStatsPingEnabled</key>
+        <false/>
 
         <!-- Further hardening (not in your current, but recommended) -->
         <key>AlwaysOpenPdfExternally</key>
